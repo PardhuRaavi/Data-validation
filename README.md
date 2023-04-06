@@ -42,4 +42,9 @@ And also briefs you about the usage of Structures within structures and Pointers
 * In __Validate Percentage__ we create here also another character array variable to store the percentage in the string form, after finishin up taking input from user, It checks the string size is two bytes or not and after that checks each character is in AlphaNumeric ASCII Range or not, If the it is not in Specifed Ranges then it returns __-1__ , produces error message and asks user to enter the percrntage correctly.
 * After finishing the salary and percentage Validations it calls __Validate Date__ function.
 ### Validate-Date
-* In this function we take date as string and 
+* In this function we take date as three strings to check the every character in the date, month and year are in coorect size.
+* After checking date, month and year It checks individually the each and ever byte in date format are in the range of AlphaNumeric ASCII rang
+* And also checks the date, month and Year formats like date is in between (1 to 31), month (1 to 12) and year is >999
+* If all the conditions are satisified then it return __-1__ and produces error message and asks user to enter the date correctly again and again till the user will enter the correct date, month and Year 
+****
+After finishig all the data validation the Main Function will print the entered Details
