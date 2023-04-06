@@ -44,7 +44,7 @@ And also briefs you about the usage of Structures within structures and Pointers
 ### Validate-Date
 * In this function we take date as three strings to check the every character in the date, month and year are in coorect size.
 * After checking date, month and year It checks individually the each and ever byte in date format are in the range of AlphaNumeric ASCII rang
-* And also checks the date, month and Year formats like date is in between (1 to 31), month (1 to 12) and year is >999
+* And also checks the date, month and Year formats like date is in between (1 to 31), month (1 to 12) and year>999
 * If all the conditions are satisified then it return __-1__ and produces error message and asks user to enter the date correctly again and again till the user will enter the correct date, month and Year 
 ****
 After finishig all the data validation the Main Function will print the entered Details
