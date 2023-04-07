@@ -1,6 +1,7 @@
 # Data-validation
 ## 1. [Introduction](#Introduction)
-## 2. [Algorithms](#Algorithms)
+## 2. [Flow Chart](#Flow-Chart)
+## 3. [Algorithms](#Algorithms)
 >* [Main Function](#Main-Function)
 >* [Get Personal Details](#Get-Personal-Details)
 >* [Get Salary Details](#Get-Salary-Details)
@@ -14,7 +15,18 @@
 This document Explains you about the __Data Validation on Employee Details__ using structures. 
 And also briefs you about the usage of Structures within structures and Pointers of structure variables. 
 
-# Algorithms
+# __Flow-Chart__
+>>
+![image](https://user-images.githubusercontent.com/129923829/230545019-d0bedda3-5f5c-4409-a79a-1ce71a2ce73c.png)
+>>
+![image](https://user-images.githubusercontent.com/129923829/230545033-ecd10b37-4b1b-493d-9ab7-544b2bef9f4e.png)
+>>
+![image](https://user-images.githubusercontent.com/129923829/230545092-261ce824-e393-40a7-850d-50b038027e18.png)
+>>
+![image](https://user-images.githubusercontent.com/129923829/230545102-ad28d239-c6d2-42b6-8ecb-1d4fcafc4579.png)
+****
+
+# __Algorithms__
 ### Main-Function
 * Created structure for personal details in this we have members for __First name__, __Last name__ and __Date of Birth__.
 * Created another structure for Salary details in this we have members for __Initial salary__, __Percentage Increment__ and __Date of Joining__.
@@ -47,4 +59,4 @@ And also briefs you about the usage of Structures within structures and Pointers
 * And also checks the date, month and Year formats like date is in between (1 to 31), month (1 to 12) and year>999
 * If all the conditions are satisified then it return __-1__ and produces error message and asks user to enter the date correctly again and again till the user will enter the correct date, month and Year 
 ****
-After finishig all the data validation the Main Function will print the entered Details
+After finishig all the data validation the Main Function will print the entered Details.
